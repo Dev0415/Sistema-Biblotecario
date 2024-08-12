@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #9a0707;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ec1a1a 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #9a0707;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #9a0707;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #9a0707;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #9a0707;
+    color: #fff;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.bienvenido{
+    text-align: center;
+}
+
+img {
+    max-width: 950px; /* Anchura máxima de la imagen */
+    max-height: 450px; /* Altura máxima de la imagen */
+    display: block; /* Para centrar la imagen horizontalmente */
+    margin-left: auto; /* Centrar la imagen horizontalmente */
+    margin-right: auto; /* Centrar la imagen horizontalmente */
+}
+
+
+
+.img-container img {
+    max-width: 400px; /* Anchura máxima de la imagen */
+    max-height: 150px; /* Altura máxima de la imagen */
+ 
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons input[type="submit"],
+.buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons a {
+    background-color: #6c757d;
+}
+
+.buttons input[type="submit"]:hover,
+.buttons a:hover {
+    background-color: #0056b3;
+}
